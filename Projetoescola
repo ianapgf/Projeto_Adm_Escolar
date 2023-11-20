@@ -1,0 +1,15 @@
+package com.mycompany.projetoescola;
+
+import javax.swing.JFrame;
+public class Projetoescola {
+
+    public static void main(String[] args) throws Exception {
+        JFrame janela = new JFrame();
+        janela.setSize(420,420);
+        janela.setVisible(true);
+      
+        Escola escola1 = new Escola ("Nome","","",10);
+        escola1.Associardiretor("Abel", "232321", "29/03/99", "12321");
+    }
+    
+}
