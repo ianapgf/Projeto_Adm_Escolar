@@ -1,0 +1,30 @@
+package com.mycompany.projetoescola;
+
+public class Diretor extends Pessoa{
+     private String idDiretor, datacontratacao;
+     
+
+    public Diretor(String nome, String idDiretor, String datacontratacao , String cpf) {
+        this.nome = nome;
+        this.idDiretor = idDiretor;
+        this.datacontratacao = datacontratacao;
+        
+        
+    }
+
+    public String getIdDiretor() {
+        return idDiretor;
+    }
+
+    public String getDatacontratacao() {
+        return datacontratacao;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getNome() {
+        return this.nome;
+    }
+}
