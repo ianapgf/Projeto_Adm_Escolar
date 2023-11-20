@@ -1,0 +1,9 @@
+package com.mycompany.projetoescola;
+
+public class Pessoa {
+    protected String nome,cpf,sexo;
+
+}
+    
+    
+    
