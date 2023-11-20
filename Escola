@@ -1,0 +1,62 @@
+package com.mycompany.projetoescola;
+public class Escola {
+    private String nome, endereco, nId;
+    private int anofundacao;
+    private Diretor diretor;
+    
+    public Escola(String nome, String endereco, String nId, int anofundacao) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.nId = nId;
+        this.anofundacao = anofundacao;
+        this.diretor= null;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        if(nome.length() > 0)
+        this.nome = nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        if(endereco.length() > 0)
+        this.endereco = endereco;
+    }
+
+    public String getnId() {
+        
+        return nId;
+    }
+
+    public void setnId(String nId) {
+         if(nId.length() > 0)
+        this.nId = nId;
+    }
+
+    public int getAnofundacao() {
+        
+        return anofundacao;
+    }
+
+    public void setAnofundacao(int anofundacao) {
+          if(anofundacao > 0)
+        this.anofundacao = anofundacao;
+    }
+    
+    
+    public void Associardiretor(String diretorAssociado, String idDiretorinput, String datacontratacaoinput,String cpfinput ){
+      this.diretor = new Diretor (diretorAssociado , idDiretorinput , datacontratacaoinput , cpfinput);
+   }
+    
+    
+    
+    
+    
+}
