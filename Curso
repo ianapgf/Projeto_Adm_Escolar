@@ -1,0 +1,19 @@
+package com.mycompany.projetoescola;
+
+
+public class Curso {
+    
+    private String nome,descricao;
+    private int codigo,datainicio;
+    
+    public Curso(String nome, String descricao, int codigo, int datainicio)
+    {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.codigo = codigo;
+        this.datainicio = datainicio;        
+              
+        
+    }
+    
+}
