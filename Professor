@@ -1,0 +1,26 @@
+package com.mycompany.projetoescola;
+public class Professor {
+    private String nome, sexo, disciplina;
+    private int idProfessor,contrato,idade;
+    
+    public Professor(String nome, int idProfessor, int contrato, int idade, String sexo, String disciplina) {
+        this.nome = nome;
+        this.idProfessor = idProfessor;
+        this.contrato = contrato;
+        this.sexo = sexo;
+        this.idade = idade;
+        this.disciplina = disciplina;
+        
+    }
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        if(nome.length() > 0)
+        this.nome = nome;
+    }
+    
+    
+}
+
